@@ -1,0 +1,17 @@
+---
+declared-services:
+  Conversation-la:
+    label: conversation
+    plan: free
+applications:
+- services:
+  - Conversation-la
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pruebaqlik1
+  host: pruebaqlik1
+  command: npm start
+  env:
+    NPM_CONFIG_PRODUCTION: false

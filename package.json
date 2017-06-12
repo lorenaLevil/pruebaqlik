@@ -1,0 +1,26 @@
+{
+  "name": "IntegradorMovistar",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.13.x",
+    "cfenv": "1.0.x",
+    "body-parser": "^1.15.2",
+    "change-case": "^3.0.0",
+    "moment": "^2.14.1",
+    "mysql": "^2.11.1",
+    "node-rest-client": "^2.0.1",
+    "q": "^1.4.1",
+    "request": "^2.74.0"
+  },
+  "repository": {},
+  "engines": {
+    "node": "4.x"
+  },
+  "devDependencies": {
+    "cors": "^2.8.1"
+  }
+}
